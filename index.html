@@ -14,6 +14,8 @@
   <link rel="apple-touch-icon" sizes="152x152" href="assets/images/govuk-apple-touch-icon-152x152.png">
   <link rel="apple-touch-icon" href="assets/images/govuk-apple-touch-icon.png">
   <link href="stylesheets/govuk-frontend-4.5.0.min.css" rel="stylesheet">
+  <link href="stylesheets/custom-styles.css" rel="stylesheet">
+
 </head>
 
 <body class="govuk-template__body ">
@@ -51,78 +53,203 @@
       </div>
     </div>
   </header>
-  <div class="govuk-width-container ">
+  <div class="masthead">
+    <div class="hero hero--breaded">
+      <div class="govuk-breadcrumbs breadcrumbs-hero">
+        <ol class="govuk-breadcrumbs__list">
+          <li class="govuk-breadcrumbs__list-item">
+            <a class="govuk-breadcrumbs__link" href="https://www.gov.uk/search/services">GOV.UK services</a>
+          </li>
+          <li class="govuk-breadcrumbs__list-item">
+            <a class="govuk-breadcrumbs__link" href="#main-content">GOV.UK Platforms</a>
+          </li>
+        </ol>
+      </div>
+      <div class="hero__content">
+        <div class="hero__body">
+          <h1 class="hero__title">Build and run online services easily</h1>
+          <div class="hero__inline-image">
+            <img src="/assets/images/servicebuilder.png" alt="" role="presentation">
+          </div>
+          <p class="hero__description">
+            GOV.UK Platforms are tools to make it easier to build and run your online service if you work in the public sector.
+          </p>
+          <p class="hero__description">
+            You can create accessible, low cost online services without needing coding skills or technical knowledge.
+          </p>
+        </div>
+        <div class="hero__aside-image">
+          <img src="assets/images/servicebuilder.png" alt="" role="presentation">
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="govuk-width-container">
     <main class="govuk-main-wrapper " id="main-content" role="main">
-        <h1 class="govuk-heading-xl">Build and run online services easily</h1>
-        <p class="govuk-body">GOV.UK Platforms are tools to make it easier to build and run your online service if you work in the public sector.</p>
-        <p class="govuk-body">You can create accessible, low cost online services without needing coding skills or technical knowledge.</p>
-        <section>
+        <section class="product-page-!-border-bottom govuk-!-margin-bottom-8 govuk-!-padding-bottom-8">
             <h2 class="govuk-heading-l">Use GOV.UK Platforms to create your service</h2>
             <p class="govuk-body">Your users can complete a form, send you information, pay for things and receive notifications with GOV.UK Platforms. They're free to use, easy to set up and have accessibility built in from the start.</p>
             <p class="govuk-body">You can use one, some, or all of the digital tools to support your service.</p>
-            <strong class="govuk-tag govuk-tag--green">
-                In development
-            </strong>
-            <h3 class="govuk-heading-m">Build a form</h3>
-            <p class="govuk-body">Create accessible online forms without needing technical knowledge.</p>
-            <p class="govuk-body">GOV.UK Forms is in development with selected government partners. You can register to get a notification when it's available for all of central government.</p>
-            <p class="govuk-body"><a href="#" class="govuk-link">Register your interest</a></p>
-            <h3 class="govuk-heading-m">Collect payments</h3>
-            <p class="govuk-body">Collect and process payments - providing a simple experience for users and easy integration for service teams.</p>
-            <p class="govuk-body"><a href="#" class="govuk-link">Take payments with GOV.UK Pay</a></p>
-            <h3 class="govuk-heading-m">Send your users email, text messages or letters</h3>
-            <p class="govuk-body">Send your users emails, text messages and letters - cheaply and easily.</p>
-            <p class="govuk-body"><a href="#" class="govuk-link">Who’s using GOV.UK Notify</a></p>
-            <h3 class="govuk-heading-m">Publish on GOV.UK</h3>
-            <p class="govuk-body">Guidance for government editors and publishers about how to create and edit documents and organisation pages.</p>
-            <p class="govuk-body"><a href="#" class="govuk-link">Find out more about GOV.UK Publisher</a></p>
+            <div class="govuk-grid-row">
+              <div class="govuk-grid-column-one-half">
+                <img src="assets/images/forms.svg" class="govuk-!-margin-bottom-4" width="390">
+                <strong class="govuk-tag govuk-tag--green">
+                  In development
+                </strong>
+                <h3 class="govuk-heading-m">Build a form</h3>
+                <p class="govuk-body">Create accessible online forms without needing technical knowledge.</p>
+                <p class="govuk-body">GOV.UK Forms is in development with selected government partners. You can register to get a notification when it's available for all of central government.</p>
+                <p class="govuk-body"><a href="#" class="govuk-link">Register your interest</a></p>
+              </div>
+              <div class="govuk-grid-column-one-half">
+                <img src="assets/images/pay.svg" class="govuk-!-margin-bottom-4" width="390">
+                <h3 class="govuk-heading-m">Collect payments</h3>
+                <p class="govuk-body">Collect and process payments - providing a simple experience for users and easy integration for service teams.</p>
+                <p class="govuk-body"><a href="#" class="govuk-link">Take payments with GOV.UK Pay</a></p>
+              </div>
+            </div>
+           
+            <div class="govuk-grid-row">
+              <div class="govuk-grid-column-one-half">
+                <img src="assets/images/notify.svg" class="govuk-!-margin-bottom-4" width="390">
+                <h3 class="govuk-heading-m">Send your users email, text messages or letters</h3>
+                <p class="govuk-body">Send your users emails, text messages and letters - cheaply and easily.</p>
+                <p class="govuk-body"><a href="#" class="govuk-link">Who’s using GOV.UK Notify</a></p>
+              </div>
+              <div class="govuk-grid-column-one-half">
+                <img src="assets/images/publish.svg" class="govuk-!-margin-bottom-4" width="390">
+                <h3 class="govuk-heading-m">Publish on GOV.UK</h3>
+                <p class="govuk-body">Guidance for government editors and publishers about how to create and edit documents and organisation pages.</p>
+                <p class="govuk-body"><a href="#" class="govuk-link">Find out more about GOV.UK Publisher</a></p>
+              </div>
+            </div>
         </section>
-        <section>
+        <section class="product-page-!-border-bottom govuk-!-margin-bottom-8 govuk-!-padding-bottom-8">
             <h2 class="govuk-heading-l">Get started with our resources and guidance to help plan your own service transformation</h2>
-            <h3 class="govuk-heading-m">Design principles</h3>
-            <p class="govuk-body">Principles to help guide teams creating government services</p>
-            <h3 class="govuk-heading-m">Service manual</h3>
-            <p class="govuk-body">Guidance on accessibility and assisted digital, agile delivery, design, measuring success, user research and more</p>
+            <div class="govuk-grid-row">
+              <div class="govuk-grid-column-one-half">
+                <h3 class="govuk-heading-m"><a class="govuk-link" href="https://www.gov.uk/guidance/government-design-principles">Design principles</a></h3>
+                <p class="govuk-body">Principles to help guide teams creating government services</p>
+              </div>
+              <div class="govuk-grid-column-one-half">
+                <h3 class="govuk-heading-m"><a class="govuk-link" href="https://www.gov.uk/service-manual/service-standard">Service manual</a></h3>
+                <p class="govuk-body">Guidance on accessibility and assisted digital, agile delivery, design, measuring success, user research and more</p>
+              </div>
+            </div>
         </section>
-        <section>
+        <section class="product-page-!-border-bottom govuk-!-margin-bottom-8 govuk-!-padding-bottom-8">
             <h2 class="govuk-heading-l">Why use GOV.UK Platforms</h2>
             <p class="govuk-body">All GOV.UK Platforms are provided by the Government Digital Service (GDS).</p>
-            <h3 class="govuk-heading-m">No procurement</h3>
-            <p class="govuk-body">As a Government owned product, there is no need to lengthy times procuring us as a supplier</p>
-            <h3 class="govuk-heading-m">No code</h3>
-            <p class="govuk-body">All our platforms offer solutions that can be implemented with no technical knowledge</p>
-            <h3 class="govuk-heading-m">Low cost</h3>
-            <p class="govuk-body">Our platforms are competitively priced against other software on the market</p>
-            <h3 class="govuk-heading-m">Accessible</h3>
-            <p class="govuk-body">All our platforms are fully accessible for both civil servants and end users</p>
-            <h3 class="govuk-heading-m">Trusted experience</h3>
-            <p class="govuk-body">Put your users at ease with government branded comms and familiar GOV.UK styles</p>
-            <h3 class="govuk-heading-m">Test before you launch</h3>
-            <p class="govuk-body">Quickly test your ideas for your service before you build it, saving time and money and reducing risk</p>
+            <div class="govuk-grid-row">
+              <div class="govuk-grid-column-one-third">
+                <h3 class="govuk-heading-m">No procurement</h3>
+                <p class="govuk-body">As a Government owned product, there is no need to lengthy times procuring us as a supplier</p>
+              </div>
+              <div class="govuk-grid-column-one-third">
+                <h3 class="govuk-heading-m">No code</h3>
+                <p class="govuk-body">All our platforms offer solutions that can be implemented with no technical knowledge</p>
+              </div>
+              <div class="govuk-grid-column-one-third">
+                <h3 class="govuk-heading-m">Low cost</h3>
+                <p class="govuk-body">Our platforms are competitively priced against other software on the market</p>
+              </div>
+            </div>
+            <div class="govuk-grid-row">
+              <div class="govuk-grid-column-one-third">
+                <h3 class="govuk-heading-m">Accessible</h3>
+                <p class="govuk-body">All our platforms are fully accessible for both civil servants and end users</p>
+              </div>
+              <div class="govuk-grid-column-one-third">
+                <h3 class="govuk-heading-m">Trusted experience</h3>
+                <p class="govuk-body">Put your users at ease with government branded comms and familiar GOV.UK styles</p>
+              </div>
+              <div class="govuk-grid-column-one-third">
+                <h3 class="govuk-heading-m">Test before you launch</h3>
+                <p class="govuk-body">Quickly test your ideas for your service before you build it, saving time and money and reducing risk</p>
+              </div>
+            </div>
         </section>
-        <section>
+        <section class="product-page-!-border-bottom govuk-!-margin-bottom-8 govuk-!-padding-bottom-8">
             <h2 class="govuk-heading-l">Over 1500 organisations are using GOV.UK Platforms</h2>
             <p class="govuk-body">Widely used across government, local authorities and police forces.</p>
+            <div class="govuk-grid-row">
+              <div class="govuk-grid-column-one-quarter">
+                <img height="70" src="assets/images/home-office.png">
+              </div>
+              <div class="govuk-grid-column-one-quarter">
+                <img height="70" src="assets/images/moj.png">
+              </div>
+              <div class="govuk-grid-column-one-quarter">
+                <img height="70" src="assets/images/fcdo.png">
+              </div>
+              <div class="govuk-grid-column-one-quarter">
+                <img height="70" src="assets/images/nhs.png">              
+              </div>
+            </div>
+            <div class="govuk-grid-row">
+              <div class="govuk-grid-column-one-quarter">
+                <img height="70" src="assets/images/canterbury.png">
+              </div>
+              <div class="govuk-grid-column-one-quarter">
+                <img height="70" src="assets/images/city_of_lincoln.png">
+              </div>
+              <div class="govuk-grid-column-one-quarter">
+                <img height="70" src="assets/images/croydon-council.jpg">
+              </div>
+              <div class="govuk-grid-column-one-quarter">
+                <img height="70" src="assets/images/liverpool.jpg">
+              </div>
+            </div>
         </section>
-        <section>
+        <section class="product-page-!-border-bottom govuk-!-margin-bottom-8 govuk-!-padding-bottom-8">
             <h2 class="govuk-heading-l">We're continually improving what we offer but we need your help</h2>
             <p class="govuk-body"><a href="#">Sign up to be a user research participant</a> to help improve GOV.UK Platforms.</p>
-        <section>
-            <h2 class="govuk-heading-l">Public services fit for the modern age</h2>
-            <p class="govuk-body">In the digital age, citizens expect public services to "just work". Using GOV.UK Platforms helps your organisation build services that are easy to use, efficient and save the public money.</p>
-            <h2 class="govuk-heading-l">Making it easier to design and build public services</h2>
-            <p class="govuk-body">Many of GDS's tools need little or no technical expertise to implement successfully in your organisation. We want all of the public sector to be able to create effective, modern services.</p>
-            <h2 class="govuk-heading-l">Advanced implementation for development teams</h2>
-            <p class="govuk-body">GDS tools are built to be interoperable and can communicate with existing systems. There is plenty of support and high quality documentation from our technical teams.</p>
+        </section>
+        <section class="product-page-!-border-bottom govuk-!-margin-bottom-8 govuk-!-padding-bottom-8">
+          <div class="govuk-grid-row">
+            <div class="govuk-grid-column-one-half">
+              <h2 class="govuk-heading-l">Public services fit for the modern age</h2>
+              <p class="govuk-body">In the digital age, citizens expect public services to "just work". Using GOV.UK Platforms helps your organisation build services that are easy to use, efficient and save the public money.</p>
+            </div>
+            <div class="govuk-grid-column-one-half">
+              <img width="100%" src="assets/images/public-services.jpg"/>
+            </div>
+          </div>
+          <div class="govuk-grid-row">
+            <div class="govuk-grid-column-one-half">
+              <img width="100%" src="assets/images/design-and-build.png"/>
+            </div>
+            <div class="govuk-grid-column-one-half">
+              <h2 class="govuk-heading-l">Making it easier to design and build public services</h2>
+              <p class="govuk-body">Many of GDS's tools need little or no technical expertise to implement successfully in your organisation. We want all of the public sector to be able to create effective, modern services.</p>
+            </div>
+          </div>
+          <div class="govuk-grid-row">
+            <div class="govuk-grid-column-one-half">
+              <h2 class="govuk-heading-l">Advanced implementation for development teams</h2>
+              <p class="govuk-body">GDS tools are built to be interoperable and can communicate with existing systems. There is plenty of support and high quality documentation from our technical teams.</p>
+            </div>
+            <div class="govuk-grid-column-one-half">
+              <img width="100%" src="assets/images/advanced-implementation.png"/>
+            </div>
+          </div>
         </section>
         <section>
             <h2 class="govuk-heading-l">Featured from the blog</h2>
-            <h3 class="govuk-heading-m">Notify’s product strategy and upcoming features</h3>
-            <p class="govuk-body">Outlining our three goals to ensure we continue to offer a great product for the best value for money.</p>
-            <h3 class="govuk-heading-m">Making it easy to create and publish digital forms on GOV.UK</h3>
-            <p class="govuk-body">The new version of the Kit makes creating and updating prototypes of government services easier for all users, particularly those getting started with the Kit.</p>
-            <h3 class="govuk-heading-m">The Single Data Environment: joined-up digital analytics</h3>
-            <p class="govuk-body">How GDS plans to unlock actionable insights through end-to-end visibility of whole user journeys, ultimately enabling better data-driven decisions.</p>
+            <div class="govuk-grid-row">
+              <div class="govuk-grid-column-one-third">
+                <h3 class="govuk-heading-m">Notify’s product strategy and upcoming features</h3>
+                <p class="govuk-body">Outlining our three goals to ensure we continue to offer a great product for the best value for money.</p>
+              </div>
+              <div class="govuk-grid-column-one-third">
+                <h3 class="govuk-heading-m">Making it easy to create and publish digital forms on GOV.UK</h3>
+                <p class="govuk-body">The new version of the Kit makes creating and updating prototypes of government services easier for all users, particularly those getting started with the Kit.</p>
+              </div>
+              <div class="govuk-grid-column-one-third">
+                <h3 class="govuk-heading-m">The Single Data Environment: joined-up digital analytics</h3>
+                <p class="govuk-body">How GDS plans to unlock actionable insights through end-to-end visibility of whole user journeys, ultimately enabling better data-driven decisions./p>
+              </div>
+            </div>
         </section>
     </main>
   </div>

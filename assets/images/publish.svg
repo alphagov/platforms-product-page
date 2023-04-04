@@ -1,0 +1,17 @@
+<svg width="465" height="310" viewBox="0 0 465 310" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M465 0H0V310H465V0Z" fill="#6F72AF"/>
+<path d="M54 56C54 53.7909 56.0691 52 58.6214 52H406.379C408.931 52 411 53.7909 411 56V75H54V56Z" fill="#F3F2F1"/>
+<path d="M63.5 67C65.433 67 67 65.433 67 63.5C67 61.567 65.433 60 63.5 60C61.567 60 60 61.567 60 63.5C60 65.433 61.567 67 63.5 67Z" fill="#D4351C"/>
+<path d="M75.5 67C77.433 67 79 65.433 79 63.5C79 61.567 77.433 60 75.5 60C73.567 60 72 61.567 72 63.5C72 65.433 73.567 67 75.5 67Z" fill="#FFDD00"/>
+<path d="M87.5 67C89.433 67 91 65.433 91 63.5C91 61.567 89.433 60 87.5 60C85.567 60 84 61.567 84 63.5C84 65.433 85.567 67 87.5 67Z" fill="#00703C"/>
+<rect x="54" y="95" width="357" height="4" fill="#C3432B"/>
+<rect x="54" y="75" width="357" height="20" fill="#0B0C0C"/>
+<path d="M54 99H411V254C411 256.209 409.209 258 407 258H58C55.7909 258 54 256.209 54 254V99Z" fill="white"/>
+<rect x="81" y="227" width="49" height="17" rx="2" fill="#1F8823"/>
+<path d="M155 111H81V123H155V111Z" fill="#0B0C0C"/>
+<path d="M155 155H81V167H155V155Z" fill="#0B0C0C"/>
+<path d="M82 132H208V142H82V132Z" stroke="#0B0C0C" stroke-width="2"/>
+<path d="M207 177H83V188H207V177Z" fill="#F8F8F8"/>
+<line x1="82" y1="187" x2="207" y2="187" stroke="#D9D9D9" stroke-width="2"/>
+<path d="M82 176H208V218H82V176Z" stroke="#0B0C0C" stroke-width="2"/>
+</svg>

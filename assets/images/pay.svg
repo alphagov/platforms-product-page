@@ -1,0 +1,31 @@
+<svg width="465" height="310" viewBox="0 0 465 310" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M465 0H0V310H465V0Z" fill="#912B88"/>
+<path d="M54 56C54 53.7909 56.0691 52 58.6214 52H406.379C408.931 52 411 53.7909 411 56V75H54V56Z" fill="#F3F2F1"/>
+<path d="M63.5 67C65.433 67 67 65.433 67 63.5C67 61.567 65.433 60 63.5 60C61.567 60 60 61.567 60 63.5C60 65.433 61.567 67 63.5 67Z" fill="#D4351C"/>
+<path d="M75.5 67C77.433 67 79 65.433 79 63.5C79 61.567 77.433 60 75.5 60C73.567 60 72 61.567 72 63.5C72 65.433 73.567 67 75.5 67Z" fill="#FFDD00"/>
+<path d="M87.5 67C89.433 67 91 65.433 91 63.5C91 61.567 89.433 60 87.5 60C85.567 60 84 61.567 84 63.5C84 65.433 85.567 67 87.5 67Z" fill="#00703C"/>
+<rect x="54" y="95" width="357" height="4" fill="#1D70B8"/>
+<rect x="54" y="75" width="357" height="20" fill="#0B0C0C"/>
+<path d="M54 99H411V254C411 256.209 409.209 258 407 258H58C55.7909 258 54 256.209 54 254V99Z" fill="white"/>
+<rect x="275" y="119" width="116" height="96" fill="#D9D9D9"/>
+<rect x="277" y="121" width="112" height="92" fill="#F8F8F8"/>
+<path d="M153 119H79V131H153V119Z" fill="#0B0C0C"/>
+<path d="M357 133H283V145H357V133Z" fill="#0B0C0C"/>
+<path d="M357 189H283V201H357V189Z" fill="#0B0C0C"/>
+<path d="M341 151H283V157H341V151Z" fill="#0B0C0C"/>
+<path d="M153 195H79V207H153V195Z" fill="#0B0C0C"/>
+<path d="M101 159H79V171H101V159Z" fill="#F8F8F8"/>
+<path d="M127 159H105V171H127V159Z" fill="#F8F8F8"/>
+<path d="M153 159H131V171H153V159Z" fill="#1D70B8"/>
+<path d="M179 159H157V171H179V159Z" fill="#F8F8F8"/>
+<path d="M80 140H206V150H80V140Z" stroke="#0B0C0C" stroke-width="2"/>
+<path d="M80 216H100V226H80V216Z" stroke="#0B0C0C" stroke-width="2"/>
+<circle cx="119" cy="165" r="4" fill="#F47738"/>
+<path d="M117 216H137V226H117V216Z" stroke="#0B0C0C" stroke-width="2"/>
+<rect x="82" y="162" width="16" height="6" fill="#1D70B8"/>
+<circle cx="113" cy="165" r="4" fill="#DD1A1A"/>
+<path d="M166 161H163V169H166V161Z" fill="#1D70B8"/>
+<path d="M170 161H167V169H170V161Z" fill="#DD1A1A"/>
+<path d="M174 161H171V169H174V161Z" fill="#1F8823"/>
+<line x1="109.949" y1="216.316" x2="106.949" y2="225.316" stroke="#0B0C0C" stroke-width="2"/>
+</svg>
