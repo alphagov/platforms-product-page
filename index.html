@@ -2,6 +2,15 @@
 <html lang="en" class="govuk-template ">
 
 <head>
+  <script>
+  // Define dataLayer and the gtag function.
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  // Default ad_storage to 'denied'.
+  gtag('consent', 'default', {
+    'ad_storage': 'denied'
+  });
+  </script>
   <!-- Google Tag Manager -->
   <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
   new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
@@ -9,6 +18,14 @@
   'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
   })(window,document,'script','dataLayer','GTM-MFJWJNW');</script>
   <!-- End Google Tag Manager -->
+  <!-- Update this section based on your business requirements -->
+  <script>
+    function consentGranted() {
+      gtag('consent', 'update', {
+        'ad_storage': 'granted'
+      });
+    }
+  </script>
   <meta charset="utf-8">
   <title>GOV.UK Platforms</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
@@ -48,10 +65,10 @@
         </div>
       </div>
       <div class="govuk-button-group">
-        <button value="accept" type="button" name="cookies" class="govuk-button" data-module="govuk-button">
+        <button value="accept" type="button" name="cookies" class="govuk-button" id="consentGranted" data-module="govuk-button" onclick="consentGranted">
           Accept analytics cookies
         </button>
-        <button value="reject" type="button" name="cookies" class="govuk-button" data-module="govuk-button">
+        <button value="reject" type="button" name="cookies" class="govuk-button" id="consentRejected" data-module="govuk-button" onclick="consentRejected">
           Reject analytics cookies
         </button>
         <a class="govuk-link" href="help/cookies.html">View cookies</a>
@@ -365,6 +382,7 @@
     </div>
   </footer>
   <script src="javascript/govuk-frontend-4.5.0.min.js"></script>
+  <script src="javascript/script.js"></script>
   <script>
     window.GOVUKFrontend.initAll()
   </script>
