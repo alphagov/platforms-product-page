@@ -274,3 +274,24 @@
         line-height: 1;
     }
 }
+
+@media screen and (max-width: 640px) {
+  .partner-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr; 
+  }
+  .partner-grid img{
+    padding: 2%;
+    width: 100%;
+    height: auto;
+  }
+  .govuk-flip{
+    display: flex;
+    flex-direction: column-reverse;
+  }
+}
+
+.govuk-img{
+  width: 100%;
+  height: auto;
+}
