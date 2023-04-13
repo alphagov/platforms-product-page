@@ -275,6 +275,11 @@
     }
 }
 
+.govuk-img{
+  width: 100%;
+  height: auto;
+}
+
 @media screen and (max-width: 640px) {
   .partner-grid {
     display: grid;
@@ -289,9 +294,10 @@
     display: flex;
     flex-direction: column-reverse;
   }
-}
-
-.govuk-img{
-  width: 100%;
-  height: auto;
+  .moj{
+    width: 60% !important;
+  }
+  .nhs{
+    width: 80% !important;
+  }
 }
