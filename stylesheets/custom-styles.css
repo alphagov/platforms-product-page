@@ -284,10 +284,18 @@
   width: 75%;
 }
 
+.govuk-platform-img-88{
+  width: 88%;
+}
+
 .govuk-container-img-right{
   text-align: right;
 }
 
+.partner-grid{
+  display: flex;
+  align-items: center;
+}
 .partner-grid img{
   text-align: center;
   display: block;
