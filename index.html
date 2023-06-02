@@ -2,29 +2,6 @@
 <html lang="en" class="govuk-template">
 
 <head>
-  <script>
-  // Define dataLayer and the gtag function.
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  // Default ad_storage to 'denied'.
-  gtag('consent', 'default', {
-    'ad_storage': 'denied'
-  });
-  </script>
-  <!-- Google Tag Manager -->
-  <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-  })(window,document,'script','dataLayer','GTM-MFJWJNW');</script>
-  <!-- End Google Tag Manager -->
-  <script>
-    function consentGranted() {
-      gtag('consent', 'update', {
-        'ad_storage': 'granted'
-      });
-    }
-  </script>
   <meta charset="utf-8">
   <link rel="canonical" href="https://platforms.service.gov.uk/" />
   <title>GOV.UK Digital Service Platform</title>
@@ -54,15 +31,10 @@
 </head>
 
 <body class="govuk-template__body ">
-  <!-- Google Tag Manager (noscript) -->
-  <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MFJWJNW"
-    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-  <!-- End Google Tag Manager (noscript) -->
   <script>
     document.body.className = ((document.body.className) ? document.body.className + ' js-enabled' : 'js-enabled');
   </script>
-  <a href="#main-content" class="govuk-skip-link" data-module="govuk-skip-link">Skip to main content</a>
-  <div class="govuk-cookie-banner " data-nosnippet role="region" aria-label="Cookies on GOV.UK Digital Service Platform">
+  <div class="govuk-cookie-banner " data-nosnippet role="region" data-module="cookie-banner" aria-label="Cookies on GOV.UK Digital Service Platform" hidden>
     <div class="govuk-cookie-banner__message govuk-width-container">
       <div class="govuk-grid-row">
         <div class="govuk-grid-column-two-thirds">
@@ -74,16 +46,31 @@
         </div>
       </div>
       <div class="govuk-button-group">
-        <button value="accept" type="button" name="cookies" class="govuk-button" id="consentGranted" data-module="govuk-button" onclick="consentGranted">
+        <button type="button" class="govuk-button" data-module="govuk-button" data-accept-cookies="true">
           Accept analytics cookies
         </button>
-        <button value="reject" type="button" name="cookies" class="govuk-button" id="consentRejected" data-module="govuk-button" onclick="consentRejected">
+        <button type="button" class="govuk-button" data-module="govuk-button" data-accept-cookies="false">
           Reject analytics cookies
         </button>
-        <a class="govuk-link" href="help/cookies.html">View cookies</a>
+        <a class="govuk-link" href="/help/cookies.html">View cookies</a>
+      </div>
+    </div>
+    <div class="govuk-cookie-banner__confirmation-message govuk-width-container" role="alert" hidden>
+      <div class="govuk-grid-row">
+        <div class="govuk-grid-column-two-thirds">
+          <div class="govuk-cookie-banner__content">
+            <p class="govuk-body"> You can <a class="govuk-link" href="/help/cookies.html">change your cookie settings</a> at any time.</p>
+          </div>
+        </div>
+      </div>
+      <div class="govuk-button-group">
+        <button class="govuk-button" data-module="govuk-button" data-hide-cookie-message>
+          Hide cookie message
+        </button>
       </div>
     </div>
   </div>
+  <a href="#main-content" class="govuk-skip-link" data-module="govuk-skip-link">Skip to main content</a>
   <header class="govuk-header" role="banner" data-module="govuk-header">
     <div class="govuk-header__container govuk-width-container">
       <div class="govuk-header__logo">
