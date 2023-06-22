@@ -11,7 +11,7 @@ function nodeListForEach (nodes, callback) {
 function Cookies () {
 	this.cookieName = 'platform_cookies_policy'
 	this.cookieDuration = 365
-	this.trackingId = 'GTM-MFJWJNW'
+	this.trackingId = 'GTM-NFZGSX8'
 	this.gaCookies = {
 		main: '_ga',
 		ga4Id: '_ga_LGKT9WEGY2'
